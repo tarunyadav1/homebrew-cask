@@ -1,9 +1,9 @@
 cask "murmur" do
   arch intel: "-intel"
 
-  version "1.0.30,31"
-  sha256 arm:   "1d44eecdf71eaf2062a7df8c3d6128adaa59ef80d39844c663ca82324430ab0f",
-         intel: "ff41e598ccb89e3ac8698177190bf26be4bfc4716b59ba5f43be2d5cbe13edcd"
+  version "1.0.31,32"
+  sha256 arm:   "19411345d15094a3a9de40f2e4c68ffb47599e1beada554f21cbd34b5071f629",
+         intel: "989fdcf4b5622f562973a0780bae252d531bca9914254912d51855928739c4bd"
 
   url "https://pub-cccd11dcbf564e9cb1ec321ac823bdf0.r2.dev/Murmur-#{version.csv.first}-build-#{version.csv.second}#{arch}.dmg",
       verified: "pub-cccd11dcbf564e9cb1ec321ac823bdf0.r2.dev/"
